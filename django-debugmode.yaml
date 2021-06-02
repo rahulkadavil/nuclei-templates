@@ -32,5 +32,7 @@ requests:
           - "ADMIN_PASSWORD"
         condition: or  
         part: body    
-        
+        - type: status
+        status:
+          - 200, 500, 403, 404
        
