@@ -4,7 +4,7 @@ info:
   name: Django Debug Mode Information leakage
   description: This template can be used to capture sensitive information from Django debug page.
   author: rahulkadavil
-  severity: High
+  severity: info
   tags: exposure
 
 requests:
