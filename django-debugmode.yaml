@@ -33,6 +33,11 @@ requests:
         condition: or  
         part: body    
         - type: status
+      - type: status
         status:
-          - 200, 500, 403, 404
+          - 200
+          - 500
+          - 403
+          - 404
+        condition: or 
        
