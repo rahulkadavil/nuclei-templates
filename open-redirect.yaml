@@ -22,6 +22,9 @@ requests:
       - "{{BaseURL}}/?go=http://evil.com"
       - "{{BaseURL}}/?move=http://evil.com"
       - "{{BaseURL}}/?target=http://evil.com"
+      - "{{BaseURL}}/?flow=http://evil.com"
+      - "{{BaseURL}}/?out=http://evil.com"
+      - "{{BaseURL}}/?login=http://evil.com"
 
     matchers-condition: and
     matchers:   
