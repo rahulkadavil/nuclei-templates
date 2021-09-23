@@ -20,5 +20,9 @@ file:
         name: Allow Backup
         words: 
           - "android:allowBackup=\"true\""
+      - type: word
+        name: Export issue
+        words: 
+          - "android:exported=\"true\""    
 
           
