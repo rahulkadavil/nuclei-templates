@@ -29,6 +29,8 @@ requests:
       - "{{BaseURL}}/?reach=http://evil.com"
       - "{{BaseURL}}/?route=http://evil.com"
       - "{{BaseURL}}/?reroute=http://evil.com"
+      - "{{BaseURL}}/?domain=http://evil.com"
+      - "{{BaseURL}}/?Location=http://evil.com"
       
 
     matchers-condition: and
